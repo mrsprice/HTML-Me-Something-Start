@@ -66,7 +66,7 @@ header {
     padding: 20px;
 }
 .mainHeading {
-    color: #000000;
+    color: red;
     background-color: #fff;
     text-align: center;
     padding: 20px;
@@ -78,7 +78,7 @@ header {
     padding: 20px;
 }
 .funParagraph {
-    color: #000000;
+    color: green;
     background-color: #fff;
     text-align: center;
     padding: 20px;
@@ -101,4 +101,8 @@ footer {
     text-align: center;
     padding: 10px;
     color: #fff;
+}
+
+#mainHeading {
+    color: red;
 }
