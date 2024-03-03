@@ -1,1 +1,104 @@
-/* Write your CSS here! */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    padding: 0;
+    background-color: #f7eee4;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    padding: 0;
+    background-color: #f7eee4;
+    display: block;
+}
+nav {
+    background-color: #000000;
+    color: #fff;
+    list-style: none;
+    padding: 20px 0 20px 0;
+    text-align: right;
+}
+.nav > li {
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 15px;
+}
+.nav > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav > li > a:hover {
+    color: #c1c1c1;
+}
+img {
+    border-radius: 50%;
+    width: 20%;
+    padding: 5px;
+    float: center;
+}
+.banner {
+    color:#000000;
+    float: center;
+}
+.banner > a {
+    text-decoration: none;
+     color:#000000;
+
+}
+.logo {
+    color:#000000;
+    float: left;
+    font-weight: bold;
+    padding-right: 50px;
+}
+.logo > a {
+    text-decoration: none;
+     color:#000000;
+
+}
+
+header {
+    color: #000000;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.mainHeading {
+    color: #000000;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.testP {
+    color: #000000;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.funParagraph {
+    color: #000000;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+section {
+    margin: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+article {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
